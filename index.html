@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EMBUNG BANSARI</title>
+    </head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Libre+Franklin:wght@200&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mogra&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+  <style>
+
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            font-family: 'Libre Franklin', sans-serif;
+            background-color:rgba(154, 201, 221, 0.849);
+            padding-bottom:40px;
+        }
+        .atas{
+           
+            display:flex;
+            background-color:rgba(9, 9, 184, 0.658);
+            height:100px;
+            justify-content: space-between;
+            align-content:space-between;
+        }
+
+        .logo{       
+            flex:5;   
+        }
+
+        .logo p{
+            font-family: 'Mogra', cursive;
+            text-align:center;
+            color:rgb(247, 250, 253);
+            margin-top: 30px;
+            margin-left:10px;
+            font-size: 40px;
+        }
+
+        .nohp{
+            flex:3;
+        }
+
+        .nohp p{
+            text-align:right;
+            margin-top:40px;
+            font-size:23px;
+            color:bisque;
+            
+        }
+
+
+        .nohp p:hover{
+           color:rgb(240, 191, 101);
+        }
+        .bendera{
+            padding: 30px 20px;
+            flex:1;
+            align-self:center;
+            
+        }
+    
+        nav{
+            
+            background-color:rgba(43, 29, 243, 0.596);        
+        }
+
+        nav ul{
+            height:25px;
+            list-style:none;          
+            display:flex;          
+            justify-content:center;
+            padding:10px 30px;
+        }
+
+        nav ul li a{
+            background-color:rgba(31, 27, 233, 0.555);
+            font-size:20px;
+            text-decoration:none;
+            margin-left:90px;
+            color:rgb(233, 234, 240);
+        }
+
+       
+
+        .hero{
+           height:750px;
+            background-image:url(image/3.jpg);
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+        nav ul li a:hover{
+            color:rgb(255, 255, 255);
+            
+        }
+
+
+        .box{
+            display:flex;
+           
+        }
+        .box1{
+          
+          
+           flex:3;
+           
+        }
+        
+        .box1 > *{
+            margin-left:20px;
+            text-align:justify;
+            font-size:25px;
+            margin-right:70px;
+            
+        }
+
+
+         /*================Info=================*/
+
+        .box div.box2{
+            background-color:rgba(108, 147, 255, 0.233);
+          
+            width:400px;
+            height:900px;
+            margin-right: 30px;
+        }
+
+        .box2{
+            overflow-y:scroll;
+            border:1px solid rgb(255, 252, 252);
+        }
+
+
+
+        .details, .details1, .details2 {
+            padding:30px;
+            font-size:20px;
+            margin-top:0;
+            text-align:justify;
+          
+           
+        }
+
+
+
+
+        /*================fitur deal=================*/
+
+        .divjudulfd{
+            background-color:rgba(9, 9, 184, 0.658);
+            height:100px;
+            position:relative;
+            display:flex;
+            justify-content:center;
+            
+        }
+
+        .divjudulfd h3{
+         
+          position:absolute;
+          margin-top:30px;
+         
+         
+            font-size:40px;
+            color:rgb(240, 252, 252);
+        }
+
+        
+        .fiturdeal{
+          
+            background-color:rgba(154, 201, 221, 0.849);
+            width: 100%;
+            height: 1000px;
+            display:flex;
+            flex-wrap:wrap;
+           justify-content:center;
+        }
+
+     
+        .fiturdeal h2{
+            color:rgb(225, 229, 233);
+            font-family: 'Jost', sans-serif;
+            margin-top:220px;
+            margin-left:7px;
+            margin-right:7px;
+        }
+
+       .fiturdeal p{
+           color:aliceblue;
+            margin-top:8px;
+           margin-left:7px;
+           margin-right:7px;
+           text-align:justify;
+           font-family: 'Exo', sans-serif;
+       }
+
+        .fd1, .fd2, .fd3, .fd4, .fd5, .fd6 {
+            background-color:rgb(205, 209, 240);
+            width:300px;
+            height:350px;
+            margin-top:100px;
+            margin-right: 100px;
+            border-radius:20px;
+        }
+
+        .fd1{
+            background-image:url(image/curugsurodipo1.jpg);
+            background-size:500px 350px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+        .fd2{
+            background-image:url(image/embungkledung1.jpg);
+            background-size:300px 350px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+       
+        .fd3{
+            background-image:url(image/posong1.jpg);
+            background-size:490px 350px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+        .fd4{
+            background-image:url(image/tambi1.jpg);
+            background-size:300px 350px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+        .fd5{
+            background-image:url(image/botorono1.png);
+            background-size:450px 400px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+        .fd6{
+            background-image:url(image/sibajag1.jpg);
+            background-size:500px 350px;
+            background-repeat:no-repeat;
+            background-position:center;
+            
+        }
+
+         
+
+        /*================about=================*/
+        
+        .about{
+            background-color:rgb(54, 104, 151);
+            height: 900px;
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap:wrap;
+        }
+
+
+        
+
+
+        .about div.abo{
+            background-color:rgba(39, 39, 170, 0.26);
+            width: 300px;
+            height:700px;
+            margin-left:10px;
+            margin-top:150px;
+            margin-bottom:100px;
+            list-style:none;
+            border:3px solid rgb(98, 117, 136);
+            
+        }
+ 
+
+        .about li a{
+            text-decoration:none;
+            color:rgb(230, 243, 243);
+        }
+
+
+        .about li a:hover{
+            text-decoration:underline;
+            color:rgb(246, 255, 245);
+        }
+        .ul, .ul1, .ul2, .ul3, .ul4, .ul5, .ul6{
+            list-style:none;
+            text-align:left;
+            margin-left:70px ;
+            margin-top: 30px;
+            font-size:18px;
+           
+            
+        }
+
+        .about h3{
+            text-align:center;
+            margin-top: 20px;
+            color:rgb(255, 255, 255);
+            font-size:20px;
+        }
+
+
+         /*================footer=================*/
+      
+      
+
+         footer{
+            text-align:center;
+            margin-top: 30px;
+            color:rgb(14, 11, 11);
+            align-self:center;
+            margin:auto;
+          
+        }
+        
+        .footerr{
+            background-color:rgb(247, 255, 252);
+            width:100%;
+            height:70px;
+            margin-top:0;
+            display:flex;
+            
+        }
+
+        .footerr footer p{
+            font-size: 15px;
+           
+        } 
+
+       
+
+       /*=============media============*/
+        @media only screen and(min-width:992px){
+            .about{
+            flex-wrap:none;
+            }
+
+            .box1 > *{
+                font-size:90px;
+            }
+        }
+
+        @media only screen and(max-width:600px){
+            .box>*{
+                font-size:8;
+            }
+
+            .about{
+                
+                display:flex;
+                flex-direction:row;
+            }
+        }
+       
+    
+
+
+
+    </style>
+
+
+    <body>
+           
+        <div class="atas">
+            <div class="logo"><p>image | TRAVELSIDE!</p></div>
+            <div class="nohp"><p>image | +62 85194707</p></div>
+            <div class="bendera">image </div>
+        </div>
+            <nav>  
+                <ul>
+                    <li><a href="">Info |</a></li>
+                    <li><a href="">Fasilitas |</a></li>
+                    <li><a href="">Camp |</a></li>
+                    <li><a href="">Reservasi |</a></li>
+                    <li><a href="">Inspiration Photo |</a></li>
+                    <li><a href="">Tentang |</a></li>
+
+                </ul> 
+
+        </nav>
+        <br>
+        <br>
+            <div class="hero"></div>
+        <br>
+
+
+        <div class="box">
+
+        <div class="box1">
+        <h3>Judul 1</h3>
+        <br>
+        <p>Ride a red double-decker bus, visit Buckingham Palace,
+           tour the Tower of London, explore the fabled Cotswolds,
+            marvel at Stonehenge or simply sip a pint in a cozy pub. 
+            The list of iconic English to-dos is endless. From baroque-era 
+            cathedrals to the latest postmodern structures, from prehistoric 
+            Stonehenge to Regency Bath, from one-pub Cotswold villages to London's
+             Mod Brit restaurants,
+            England is a spectacular tribute to the strength—and 
+            flexibility—of tradition. Here you'll find soaring
+             medieval cathedrals; grand country mansions of the
+              aristocracy, filled with paintings, furniture, and 
+              tapestries and set in elegantly landscaped grounds;
+               and grim fortified castles, whose gray-stone walls
+                held fast against all challengers. And then 
+                there's the ever-changing variety of the 
+                countryside. A day's drive from York, for
+                 example, will take you through stretches 
+                 of wild, heather-covered moorland, ablaze
+                  with color in the fall; or past the steep,
+            sheep-dotted mountainsides of the Dailes, in which isolated hamlets
+                are scattered.
+            lorem20</p>
+
+            <br>
+            <h4>Sub judul 1</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit vel asperiores dolores eveniet magni perspiciatis voluptatibus a molestias similique excepturi debitis voluptatum, quas alias esse fuga quia saepe, doloremque ab ipsum amet aut maiores! Modi nesciunt atque enim adipisci. Voluptatibus quaerat aut molestiae velit quis soluta dolores consectetur, eum incidunt distinctio at hic culpa impedit? Facilis, error blanditiis voluptate laborum aspernatur, ullam tempore sunt nesciunt laudantium amet consequatur! Tenetur nobis nam ut maiores distinctio nostrum soluta asperiores temporibus?</p>
+             <br>
+             <br>
+             <h2>Where are we going?</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem vel temporibus obcaecati recusandae, culpa beatae libero suscipit et aperiam tenetur, debitis eligendi esse tempora commodi deleniti corrupti accusamus aspernatur. Sint totam inventore fugiat rem odit provident minima omnis eaque magni iure, ipsa voluptate ea esse reprehenderit similique sed quod nisi debitis dolor distinctio vel voluptates porro aperiam quibusdam? Perferendis aspernatur est corporis, ut, a sapiente esse doloribus, quo laboriosam provident necessitatibus sint? Expedita necessitatibus nesciunt voluptates debitis dolorum neque id alias totam ea, ut assumenda quas accusantium est beatae veniam officiis et. Eligendi commodi impedit eaque aut repudiandae laudantium?</p>
+        
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class ="box2">
+                    <details class="details">
+                        <summary>
+                            Info Menarik
+                        </summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis quos facilis veniam asperiores mollitia alias, expedita beatae, reprehenderit voluptates aspernatur quae officiis fugit perferendis soluta voluptatum accusamus voluptatibus eveniet, itaque iste! Reprehenderit, nulla! Sed rerum omnis corrupti placeat, tenetur error accusamus maxime quisquam repudiandae eius. Maiores deleniti doloribus et.</p>
+
+
+
+
+                    </details>
+
+                    <details class="details1">
+                        <summary>
+                            Wisata Murah
+                        </summary>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque laudantium cum. ipsum dolor sit amet consectetur adipisicing elit. Beatae sit a molestias aliquam labore. ipsum dolor sit amet consectetur adipisicing elit. Id debitis quos facilis veniam asperiores mollitia alias, expedita beatae, reprehenderit voluptates aspernatur quae officiis fugit perferendis soluta voluptatum accusamus voluptatibus eveniet, itaque iste! Reprehenderit, nulla! Sed rerum omnis corrupti placeat, tenetur error accusamus maxime quisquam repudiandae eius. Maiores deleniti doloribus et.</p>
+
+
+
+
+                    </details>
+
+                </details>
+
+                <details class="details2">
+                    <summary>
+                        Pendakian
+                    </summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam explicabo sequi alias laborum tenetur quaerat eius deleniti ducimus at ipsum placeat, aspernatur odio facilis id dolorum veritatis, labore modi aperiam! ipsum dolor sit amet consectetur adipisicing elit. Delectus eaque laudantium cum. ipsum dolor sit amet consectetur adipisicing elit. Beatae sit a molestias aliquam labore. ipsum dolor sit amet consectetur adipisicing elit. Id debitis quos facilis veniam asperiores mollitia alias, expedita beatae, reprehenderit voluptates aspernatur quae officiis fugit perferendis soluta voluptatum accusamus voluptatibus eveniet, itaque iste! Reprehenderit, nulla! Sed rerum omnis corrupti placeat, tenetur error accusamus maxime quisquam repudiandae eius. Maiores deleniti doloribus et.</p>
+
+
+
+
+                </details>
+
+
+
+
+
+
+
+
+
+
+                </div>
+           
+        </div>
+        <br>
+        <br>
+        <div class="divjudulfd">
+             <h3>Features Deals</h3>
+        </div>
+        <div class="fiturdeal">
+         
+            <div class="fd1">
+                <h2>Vacation Packages</h2>
+                <p>Flights, transfer, stay, bites&sips-it's all include! Shop vacation deals here</p>
+            </div>
+                
+            <div class="fd2">
+                <h2>Group Trave Made Easy</h2>
+                <p>Enjy flexible payments, faboulus perks, and dedicated service with liberty travel group</p>
+            </div>
+            <div class="fd3">
+                <h2>Irrestisible Travel Deals</h2>
+                <p>Travel sale alert! Explore today's best offers on beach breaks, cruises, tours & more</p>
+            </div>
+            <div class="fd4">
+                <h2>Get Carried Away</h2>
+                <p>Exceptional all-inclusive vacation at the perfect price.Book your next trip in a snap</p>
+            </div>
+            <div class="fd5">
+                <h2>Sponsors</h2>
+                <p>Simply build your virtual booth, hace your own branding, invite people to your booth and collect leads</p>
+            </div>
+            <div class="fd6">
+                <h2>Attendess</h2>
+                <p>Simply network and make valuable connections</p>
+            </div>
+
+
+        </div>
+       
+       
+       
+        <div class="about">
+         
+            <div class="abo about1">
+                <h3>Vacation Packages</h3>
+                <ul class="ul">
+                    <li><a href="">Embung Bansari</a></li>
+                    <li><a href="">Posong</a></li>
+                    <li><a href="">Embung Kledung</a></li>
+                    <li><a href="">Green Canyon Sibajag</a></li>
+                    <li><a href="">Kebun Teh Tambi</a></li>
+                    <li><a href="">Wana Wisata Jumprit</a></li>
+                    <li><a href="">Kledung Park</a></li>
+                    <li><a href="">Pikatan Waterpark</a></li>
+                    <li><a href="">Curug Surodipo</a></li>
+                </ul>
+            </div>
+            <div class="abo about2">
+                <h3>Cruises</h3>
+                <ul class="ul1">
+                    <li><a href="">Home Ports</a></li>
+                    <li><a href="">>Alaska Cruises</a></li>
+                    <li><a href="">Carribean Cruises</a></li>
+                    <li><a href="">Europe</a></li>
+                    <li><a href="">Mexico Cruises</a></li>
+                    <li><a href="">All Cruises</a></li>
+                </ul>
+                <h3>Hotels and Rental</h3>
+                <ul class="ul2">
+                    <li><a href="">Save on Hotel Stays</a></li>
+                    <li><a href="">Retal Car Low Price</a></li>
+                    <li> <a href="">Rental Car FAQs</a></li>
+                </ul>
+            </div>
+            <div class="abo about3">
+                <h3>Travel Values</h3>
+
+                <ul class="ul3">
+                   <li><a href="">Limited-Time Deals</a></li> 
+                    <li><a href="">Kirkland Signature</a></li>
+                   <li><a href="">This Weeks Deals</a></li>
+                   <li><a href="">Whats's New</a></li>
+                    <li><a href="">Vacations of a lifetime</a></li>
+                </ul>
+            </div>
+            <div class="abo about4">
+                <h3>Travel Partners</h3>
+                <ul class="ul4">
+                    <li> <a href="">Disneyland Resort</a> </li>
+                    <li><a href="">Walt Disney</a></li>
+                   <li><a href="">Travel Insurance</a></li>
+                   <li><a href="">Travel Guide</a></li>
+                    <li><a href="">Universal Orlando Resort</a></li>
+                </ul>
+            </div>
+            <div class="abo about5">
+                <h3>About Me</h3>
+                <ul class="ul5">
+                    <li><a href="">Me Blog</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Membership</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Preventing Fraud</a></li>
+                </ul>
+                <h3>Help</h3>
+                <ul class="ul6">
+                    <li><a href="">Need to Cancel?</a></li>
+                    <li><a href="">Tips and FAQs</a></li>
+                    <li><a href="">How to Create Account?</a></li>
+                    <li><a href="">Hotel Ratings</a></li>
+                    <li><a href="">Travel Update</a></li>
+                </ul>
+            </div>
+       
+
+        </div>
+       
+       
+
+        
+
+
+
+
+    </body>
+    <div class="footerr">
+    <footer>
+       <p> Copyright © 2008-2022 Costco Wholesale. All Rights Reserved.|Site Map|Terms & Conditions|Your Privacy Rights|CA Notice|Cookie Settings|Do Not Sell My Personal Information</p>
+
+
+     </footer>
+     </div>
+</html>
